@@ -14,11 +14,11 @@ Build the TypeScript sources and open `index.html` in your browser. Use the `+` 
 
 ## Development
 
-This project uses React and TypeScript without a bundler. Compile the sources with `tsc`:
+This project uses React and TypeScript without a bundler. Install the dependencies and run the build script:
 
 ```bash
-npm install -g typescript # if not already installed
-tsc
+npm install
+npm run build
 ```
 
 The compiled files are placed in `dist/`. Then open `index.html` to run the app.
